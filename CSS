@@ -1,9 +1,9 @@
 CSS
 Cascading Style Sheet
 
-inline style
-internal style
-external style
+inline style(tag အတွင်း ချိတ်)
+internal style(head tag တွင် ချိတ်)
+external style(Link နဲ့ ချိတ်)
 
 h1{
 color:green;
