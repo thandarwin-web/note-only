@@ -36,6 +36,17 @@ p = selector
  Display Property
  Block Element  =>  1 line မှာ တစ်ခုပဲ ရေးလို့ရ၊
  Inline Element =>  တစ်ခုပြီးတစ်ခု 1 line ထဲမှာ ရေးလို့ရ၊
+ <div> => Block Element 
+ <span> => Inline Element
+
+Content - The content of the box, where text and images appear
+Padding - Clears an area around the content. The padding is transparent
+Border  - A border that goes around the padding and content
+Margin  - Clears an area outside the border. The margin is transparent
+
+underline ဖျောက်ချင်=> text-decoration: none;
+Browser မှ သတ်မှတ်သော color ကို မလိုလျှင်=> color:inherit;
+
 
 
 
