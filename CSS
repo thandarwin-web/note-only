@@ -1,13 +1,45 @@
 CSS
 Cascading Style Sheet
 
-inline style(tag အတွင်း ချိတ်)
-internal style(head tag တွင် ချိတ်)
-external style(Link နဲ့ ချိတ်)
+.Syntax
+--------
+p{color:blue;}
 
-h1{
-color:green;
-}
-h1     = selector
-color  =property
-green  =value
+p = selector
+{color:blue;} = declaration
+ color = property
+ blue  = value
+
+ Connection
+ Inline Css (Tag အတွင်း ချိတ်)
+ <h1 style="color:green;>Heading one</h1>
+
+ Internal Css (head tag တွင် style နဲ့ ချိတ်)
+ <style>
+ p{
+    color: red;
+    font-size: 20px;
+ }
+ </style>
+ 
+ External Css (Link နဲ့ ချိတ်)
+ .To do file create(style.css)
+ .to use link tag file နဲ့ ချိတ်ရန် <link rel="stylesheet" href="style.css">
+
+ Css selector
+ -------------
+ .By html tag name
+ .Class(class name cann't start with a number)
+ .Id(Unique Value) Note: Id name cann't start with a number.
+
+ <div> tag => အုပ်စုဖွဲ့လိုတဲ့ခါ သုံး
+ Display Property
+ Block Element  =>  1 line မှာ တစ်ခုပဲ ရေးလို့ရ၊
+ Inline Element =>  တစ်ခုပြီးတစ်ခု 1 line ထဲမှာ ရေးလို့ရ၊
+
+
+
+
+
+
+ 
